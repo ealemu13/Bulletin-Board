@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Personal Bulletin Board",
+    "version": "1.0.1",
+    "description": "Never forget Anything Again with yout own personal Bulletin Board Browser",
+    "action": {
+        "default_icon": "images/pin-icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}

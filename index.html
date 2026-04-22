@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulletin Board</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+     <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header-logo-conatainer">
+            <div class="logo-img-container">
+                <img src="images/bulletin-board-logo.png" alt="Bulletin Board Logo" class="logo">
+            </div>
+            <h1>Your Own Personal Bulletin Board</h1>
+        </div>
+
+        <div class="input-area">
+            <div class="text-area-wrapper">
+                <textarea id="sticky-note-input" 
+                placeholder="Write your note here..."
+                maxlength="75"
+                ></textarea>
+                <span class="char-count" id="char-count">75</span>
+            </div>
+            <button class="button" id="add-note-button">Add Note</button>
+            <button class="button clr-btn" id="clear-notes-button">Clear All</button>
+        </div>
+    </header>
+    
+    <div class="sticky-notes-container" id="sticky-notes-container"></div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
